@@ -9,8 +9,8 @@ interface Props {
 function Post(props: Props) {
   return (
     <>
-      <h2>{props.title}</h2>
-      <h3>{props.date}</h3>
+      <h3>{props.title}</h3>
+      <h4>{props.date}</h4>
       <p>Comment Count: {props.commentCount}</p>
       {props.paragraphs.map((paragraph) => (
         <p key={props.id}>{paragraph}</p>

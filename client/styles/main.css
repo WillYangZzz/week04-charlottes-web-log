@@ -8,3 +8,7 @@
 .copyright {
   text-align: center;
 }
+
+.main-container {
+  display: flex;
+}
