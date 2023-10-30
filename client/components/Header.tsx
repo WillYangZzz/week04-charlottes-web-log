@@ -1,9 +1,14 @@
 import React from 'react'
 
-function Header() {
+interface Props {
+  title: string
+  link: string
+}
+function Header(props: Props) {
   return (
     <div className="header">
-      <h1>HEADER</h1>
+      <p>{props.title}</p>
+      <p>{props.link}</p>
     </div>
   )
 }

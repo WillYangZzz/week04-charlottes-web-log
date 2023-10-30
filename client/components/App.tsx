@@ -4,8 +4,7 @@ import Header from './Header'
 function App() {
   return (
     <div>
-      <h1>The future home of Charlotte&apos;s web log!</h1>
-      <Header />
+      <Header title={"Charlotte's Web Log"} link={'/'} />
       <Footer copyright={1980} author={'E. B. White'} />
     </div>
   )
