@@ -1,9 +1,10 @@
 import Footer from './Footer.tsx'
+import Header from './Header.tsx'
 
 function App() {
   return (
     <>
-      <h1>The future home of Charlotte&apos;s web log!</h1>
+      <Header />
       <Footer />
     </>
   )
