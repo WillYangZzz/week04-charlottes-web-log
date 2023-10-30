@@ -10,6 +10,7 @@ interface Props {
 function RecentEntries(props: Props) {
   return (
     <div>
+      <h2>Recent Entries</h2>
       {props.entries.map((entry) => {
         return (
           <div key={entry.id}>

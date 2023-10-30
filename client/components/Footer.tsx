@@ -5,7 +5,7 @@ interface Props {
 
 function Footer(props: Props) {
   return (
-    <footer>
+    <footer className="footer">
       {props.copyright} {props.author}
     </footer>
   )

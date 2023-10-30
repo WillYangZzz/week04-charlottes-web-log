@@ -10,6 +10,7 @@ interface Props {
 function OtherBlogs(props: Props) {
   return (
     <div>
+      <h2>Other Blogs</h2>
       {props.blogs.map((blog) => {
         return (
           <div key={blog.id}>

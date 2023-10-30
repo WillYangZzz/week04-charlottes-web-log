@@ -5,7 +5,7 @@ interface Props {
 
 function Header(props: Props) {
   return (
-    <h1>
+    <h1 className="header-title ">
       <a href={props.link}>{props.title}</a>
     </h1>
   )

@@ -12,13 +12,16 @@ import recentData from '../data/recent-entries.ts'
 
 function App() {
   return (
-    <>
+    <div className="center">
       <Header title={headerData.title} link={headerData.link} />
-      <Posts posts={postData} />
-      <OtherBlogs blogs={blogData} />
-      <RecentEntries entries={recentData} />
+      <div className="container">
+        <OtherBlogs blogs={blogData} />
+        <Posts posts={postData} />
+        <RecentEntries entries={recentData} />
+      </div>
+
       <Footer copyright={footerData.copyright} author={footerData.author} />
-    </>
+    </div>
   )
 }
 

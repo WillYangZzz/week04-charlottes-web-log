@@ -12,7 +12,7 @@ interface Props {
 
 function Post(props: Post) {
   return (
-    <div>
+    <div className="post">
       <h3>{props.title}</h3>
       <em>{props.date}</em>
       <p>{props.commentCount} comments</p>
@@ -25,7 +25,8 @@ function Post(props: Post) {
 
 function Posts(props: Props) {
   return (
-    <div>
+    <div className="post-container">
+      <h2>Posts</h2>
       {props.posts.map((post) => (
         <Post key={post.id} {...post} />
       ))}
