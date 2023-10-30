@@ -1,4 +1,21 @@
+body {
+  background-color: beige;
+}
+
 .posts {
   display: flex;
   justify-content: space-around;
+}
+.spin {
+  animation: spin 2s linear infinite;
+  opacity: 10%;
+}
+.center {
+  text-align: center;
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
