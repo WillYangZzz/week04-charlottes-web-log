@@ -8,7 +8,9 @@ function recentEntry(props: Props) {
   return (
     <div className="entryContainer">
       <h3>{props.name}</h3>
-      <p>{props.link}</p>
+      <a href="#">
+        <p>{props.link}</p>
+      </a>
       ...
     </div>
   )

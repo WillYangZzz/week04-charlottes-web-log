@@ -5,8 +5,10 @@ interface Props {
 
 export default function Header(props: Props) {
   return (
-    <div>
-      {props.title} {props.link}
+    <div className="header">
+      <h1>
+        {props.title} {props.link}
+      </h1>
     </div>
   )
 }

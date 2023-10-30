@@ -2,3 +2,44 @@
   display: flex;
   flex-direction: row;
 }
+
+.page {
+  padding: 2rem;
+}
+.header {
+  text-align: center;
+  background-color: aquamarine;
+  height: 15%;
+  text-align: center;
+  border: green solid;
+}
+h1 {
+  padding-top: 2%;
+}
+
+.blogs {
+  background-color: moccasin;
+  padding-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: lightblue;
+  height: 15%;
+  text-align: center;
+}
+
+.footer p {
+  padding: 3%;
+}
+
+.posts {
+  width: 50%;
+  background-color: darksalmon;
+  padding-left: 20px;
+}
+
+.entries {
+  padding-left: 100px;
+  background-color: antiquewhite;
+}

@@ -5,8 +5,10 @@ interface Props {
 
 export default function Footer(props: Props) {
   return (
-    <div>
-      {props.copyright} {props.author}
+    <div className="footer">
+      <p>
+        {props.copyright} {props.author}
+      </p>
     </div>
   )
 }

@@ -9,7 +9,7 @@ import footerData from '../data/footer.ts'
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <Header title={headerData.title} link={headerData.link} />
       <div className="bodyContainer">
         <Blogs />
