@@ -5,10 +5,11 @@ interface Props {
 }
 
 function OtherBlog(props: Props) {
+  const blogLink = props.link
   return (
     <div>
       <h2>{props.blogTitle}</h2>
-      <h3>{props.link}</h3>
+      <a href={blogLink}>Check out this other blog</a>
     </div>
   )
 }
