@@ -1,5 +1,5 @@
 const footer = {
-  copyright: 1980,
+  copyright: 1995,
   author: 'E. B. White',
 }
 

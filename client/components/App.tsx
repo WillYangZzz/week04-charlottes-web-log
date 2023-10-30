@@ -1,11 +1,14 @@
-import Footer from './Footer'
-import Header from './Header'
+import Header from './Header.tsx'
+import Footer from './Footer.tsx'
+
+import headerData from '../data/header.ts'
+import footerData from '../data/footer.ts'
 
 function App() {
   return (
     <div>
-      <Header title={"Charlotte's Web Log"} link={'/'} />
-      <Footer copyright={1980} author={'E. B. White'} />
+      <Header title={headerData.title} link={headerData.link} />
+      <Footer copyright={footerData.copyright} author={footerData.author} />
     </div>
   )
 }
