@@ -7,9 +7,8 @@ interface Props {
 function recentEntry(props: Props) {
   return (
     <div className="entryContainer">
-      <h3>{props.name}</h3>
-      <a href="#">
-        <p>{props.link}</p>
+      <a href={props.link}>
+        <h3>{props.name}</h3>
       </a>
       ...
     </div>
