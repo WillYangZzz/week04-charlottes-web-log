@@ -4,7 +4,8 @@ import Post from './Post'
 
 function Posts() {
   return (
-    <div>
+    <div className="posts-container">
+      <h2>Posts</h2>
       {postData.map((post) => (
         <Post key={post.id} {...post} />
       ))}

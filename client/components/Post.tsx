@@ -10,11 +10,13 @@ interface Props {
 
 function Post(props: Props) {
   return (
-    <div className="postContainer">
+    <div className="post">
       <h3>{props.title}</h3>
       <h4>{props.date}</h4>
       <h5>Comments - {props.commentCount}</h5>
-      <p>{props.paragraphs}</p>
+      {props.paragraphs.map((paragraph, index) => (
+        <p key={index}>{paragraph}</p>
+      ))}
     </div>
   )
 }
