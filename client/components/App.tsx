@@ -1,5 +1,6 @@
 import Footer from './Footer'
 import Header from './Header'
+import OtherBlogs from './OtherBlogs'
 import Posts from './Posts'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <div className="container">
+        <OtherBlogs />
         <Posts />
       </div>
       <Footer />

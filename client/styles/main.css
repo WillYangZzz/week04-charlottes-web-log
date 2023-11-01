@@ -6,6 +6,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  padding-top: 2.5%;
+}
+
 header {
   background-color: rgb(164, 241, 164);
   text-align: center;
@@ -15,15 +19,37 @@ header {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .posts {
   background-color: rgb(235, 172, 235);
+  padding: 3%;
+}
+
+.blogs {
+  background-color: rgb(240, 240, 197);
+  padding: 3%;
 }
 
 .post-container {
-  padding: 20px;
+  padding: 3%;
+}
+
+.blog-container {
+  height: auto;
+  padding-top: 5%;
+}
+
+.blog {
+  text-decoration: none;
+  color: blueviolet;
+  display: block;
+  padding: 15px 0px;
+}
+
+.post {
+  padding-top: 2%;
 }
 
 footer {
