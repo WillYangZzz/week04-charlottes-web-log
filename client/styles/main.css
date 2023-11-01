@@ -32,6 +32,11 @@ header {
   padding: 3%;
 }
 
+.entries {
+  background-color: rgb(250, 214, 148);
+  padding: 3%;
+}
+
 .post-container {
   padding: 3%;
 }

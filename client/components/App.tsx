@@ -2,6 +2,7 @@ import Footer from './Footer'
 import Header from './Header'
 import OtherBlogs from './OtherBlogs'
 import Posts from './Posts'
+import RecentEntries from './RecentEntries'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container">
         <OtherBlogs />
         <Posts />
+        <RecentEntries />
       </div>
       <Footer />
     </>
