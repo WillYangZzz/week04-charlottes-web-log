@@ -2,8 +2,32 @@ body {
   margin: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 header {
-  background-color: lightgreen;
+  background-color: rgb(164, 241, 164);
+  text-align: center;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.posts {
+  background-color: rgb(235, 172, 235);
+}
+
+.post-container {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(172, 214, 241);
   text-align: center;
   padding: 5px;
 }
