@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 5px;
+}
